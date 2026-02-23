@@ -15,4 +15,4 @@ package-lock.json
 .prettierignore
 
 # Clasp ignore
-# clasp.config.json
+clasp.config.json
