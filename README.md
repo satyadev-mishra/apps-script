@@ -57,7 +57,7 @@ A production-ready starter template for building Google Apps Script projects loc
 
    ```bash
    git clone https://github.com/satyadev-mishra/apps-script.git
-   cd sample-o2s
+   cd apps-script
    ```
 
 2. **Install dependencies**
