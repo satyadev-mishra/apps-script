@@ -6,7 +6,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-_Managing sample orders and shipments with Google Apps Script automation_
+_Boilerplate of Google Apps Script_
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 [![Author](https://img.shields.io/badge/Author-satyadev--mishra-green.svg)](https://github.com/satyadev-mishra)
@@ -70,8 +70,8 @@ A production-ready starter template for building Google Apps Script projects loc
    - Open `clasp.config.json`
    - Paste the Script ID in the desired mode (`dev` or `prod`)
 
-4. **Configure Sheet ID**
-   - Open `dev.json` or `prod.json`
+4. **Configure Sheet ID Or Constants**
+   - Open `dev.constants.js` or `prod.constants.js`
    - Paste the Sheet ID in the desired mode
 
 5. **Initialize CLASP**
@@ -241,7 +241,7 @@ The project uses [Prettier](https://prettier.io/) with industry-standard configu
 3. **Testing & Deployment**
    ```bash
    clasp push           # Push changes to Apps Script
-   clasp open           # Open Apps Script editor
+   clasp pull           # Push chnages from Apps Script to locally
    ```
 
 
