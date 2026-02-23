@@ -1,0 +1,34 @@
+<script>
+  // --- Function to populate dropdown ---
+  function populateDropdown($dropdown, items, message = 'Option') {
+    if (typeof items === 'string') {
+      items = items.split(',');
+    }
+    if (items && items.length > 0) {
+    
+        $dropdown.prop('disabled', false);
+        $dropdown.html(
+          `<option selected disabled value="">-- Select ${message} --</option>`
+        );
+
+        items.forEach((item) => {
+          $dropdown.append(`<option value="${item}">${item}</option>`);
+        })
+    } else {
+      $dropdown.html(
+        `<option selected disabled value="">No data found</option>`
+      );
+      $dropdown.prop('disabled', false);
+    }
+  }
+
+
+   // --- Function to reset dropdown ---
+  function resetDropdown($dropdown, message = 'Option') {
+    $dropdown.html(
+      `<option selected disabled value="">-- Select ${message} --</option>`
+    );
+    $dropdown.prop('disabled', true);
+  }
+
+</script>

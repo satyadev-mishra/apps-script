@@ -1,0 +1,28 @@
+{
+  "name": "apps-script",
+  "version": "1.0.0",
+  "description": "A production-ready starter template for building Google Apps Script projects locally with clasp, structured architecture, and Google Sheets as a backend.",
+  "keywords": ["apps-script", "google-apps-script", "google-sheets", "google-apps-script-starter", "google-apps-script-template"],
+"homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "author": "satyadev-mishra",
+  "type": "commonjs",
+  "main": "src/Code.gs",
+  "scripts": {
+    "format": "prettier --write 'src/**/*.{js,ts,gs,json}'",
+    "clasp": "node scripts/clasp-runner.js"
+  },
+  "dependencies": {
+    "@google/clasp": "^3.0.4-alpha"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}

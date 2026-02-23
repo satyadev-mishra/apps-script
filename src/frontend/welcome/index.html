@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <!-- Include Partials -->
+  <?!= include('frontend/partials/head.html'); ?>
+  
+  <body>
+    <!-- Include LoaderAndToast -->
+    <?!= include('frontend/utils/loaderAndToast.html'); ?>
+
+    <div class="container py-2">
+      <div class="text-center gap-4 d-flex align-items-center justify-content-between mb-4">
+        <?!= include('frontend/partials/logo.html'); ?>
+        <p class="mb-0 p-2 bg-primary text-white rounded-3 w-auto">Welcome</p>
+      </div>
+      <h2>Welcome to Apps Script!</h2>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <?!= include('frontend/utils/bootstrap.js'); ?>
+    <!-- Custom toast module -->
+    <?!= include('frontend/utils/toast.js'); ?>
+    <!-- Custom utils module -->
+    <?!= include('frontend/utils/utils.js'); ?>
+    <!-- Custom JS -->
+    <?!= include('frontend/welcome/index.js'); ?>
+  </body>
+</html>

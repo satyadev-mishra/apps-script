@@ -1,0 +1,8 @@
+{
+  "dev": {
+    "scriptId": "paste_devlopment_id"
+  },
+  "prod": {
+    "scriptId": "paste_production_id"
+  }
+}
